@@ -12,25 +12,25 @@ secure**.
 
 ## 🚀 Features
 
--   Convert your video lectures into structured JSON subtitle chunks\
--   Auto-extract audio from videos\
--   Generate text chunks + timestamps\
--   Vector embeddings using **bge-m3**\
--   Embedding caching (no repeated processing)\
--   RAG retrieval using cosine similarity\
--   Local LLM answering with references to video timestamps\
--   Interactive Q&A loop\
+-   Convert your video lectures into structured JSON subtitle chunks
+-   Auto-extract audio from videos
+-   Generate text chunks + timestamps
+-   Vector embeddings using **bge-m3**
+-   Embedding caching (no repeated processing)
+-   RAG retrieval using cosine similarity
+-   Local LLM answering with references to video 
+-   Interactive Q&A loop
 -   Zero API keys, 100% offline
 
 ## 📁 Project Folder Structure
 
     project/
     ├── videos/
-    ├── mp3/
+    ├── audios/
     ├── jsons/
     ├── embeddings/
     ├── preprocess_json.py
-    ├── inference.py
+    ├── llm.py
     ├── video_to_mp3.py
     ├── mp3_to_json.py
     └── README.md
@@ -59,12 +59,14 @@ Place all your lecture videos inside **videos/**.
 
 ## 🛠 Requirements
 
-    pip install numpy pandas scikit-learn joblib requests
+    pip install numpy pandas scikit-learn joblib requests 
 
 Install Ollama and pull models:
 
+    OpenAI Whisper
     ollama pull bge-m3
     ollama pull llama3.2
+    
 
 ## 🎥 Reference Content
 
