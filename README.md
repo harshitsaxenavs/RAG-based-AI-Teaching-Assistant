@@ -1,4 +1,4 @@
-# 🧠 RAG-Based AI Teaching Assistant
+# RAG-Based AI Teaching Assistant
 
 A fully local, privacy-friendly Retrieval-Augmented Generation (RAG)
 system that converts your own video lectures into searchable vector
