@@ -68,11 +68,6 @@ Install Ollama and pull models:
     ollama pull llama3.2
     
 
-## 🎥 Reference Content
-
-This project was developed using references from **CodeWithHarry's
-"Sigma Web Development Course"** on YouTube.
-
 ## 📄 License
 
 MIT License\
