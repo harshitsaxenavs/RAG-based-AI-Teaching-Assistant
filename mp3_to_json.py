@@ -13,7 +13,7 @@ for audio in audios:
         number = audio.split("_")[0]
         title = audio.split("_")[1][:-4]
 
-        print(f"▶ Transcribing:", number, title)
+        print(f" Transcribing:", number, title)
 
         result = model.transcribe(
             audio=f"audios/{audio}",
@@ -47,3 +47,4 @@ for audio in audios:
         print(f" Saved → jsons/{audio}.json\n")
 
 print(" All done!")
+
