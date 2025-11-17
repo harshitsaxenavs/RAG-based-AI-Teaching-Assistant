@@ -55,7 +55,7 @@ Place all your lecture videos inside **videos/**.
 
 ### Step 5 --- Run the Assistant
 
-    python inference.py
+    python process_incoming.py
 
 ## 🛠 Requirements
 
